@@ -48,7 +48,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Poppins", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -313,7 +313,9 @@ select {
 button,
 [type="button"],
 [type="reset"],
-
+[type="submit"] {
+  -webkit-appearance: button; }
+  button:not(:disabled),
   [type="button"]:not(:disabled),
   [type="reset"]:not(:disabled),
   [type="submit"]:not(:disabled) {
@@ -357,7 +359,9 @@ legend {
 ::-webkit-inner-spin-button {
   height: auto; }
 
-
+[type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: textfield; }
 
 /* rtl:raw:
 [type="tel"],
@@ -367,12 +371,15 @@ legend {
   direction: ltr;
 }
 */
-
+::-webkit-search-decoration {
+  -webkit-appearance: none; }
 
 ::-webkit-color-swatch-wrapper {
   padding: 0; }
 
-
+::file-selector-button {
+  font: inherit;
+  -webkit-appearance: button; }
 
 output {
   display: inline-block; }
@@ -8497,6 +8504,21 @@ footer {
     width: 50%;
     margin-bottom: 20px; }
 
+@media (min-width: 992px) {
+  .main__principal {
+    height: 100vh; }
+  .nosotros {
+    padding: 70px 100px; }
+  .servicios {
+    padding: 70px 100px; }
+  footer img {
+    width: 20%;
+    margin-bottom: 20px; }
+  .proyectospage {
+    padding: 90px; }
+  .contactopage {
+    padding: 30px; } }
+
 .nosotrospage {
   background-color: #fdf6ee;
   padding: 70px 20px; }
@@ -8508,6 +8530,25 @@ footer {
     font-weight: 700;
     line-height: 1.6; }
   .nosotrospage__wrapper-paragraph {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px; }
+
+.proyectospage {
+  background-color: #fdf6ee;
+  padding: 90px 20px; }
+  .proyectospage__wrapper-title {
+    color: #e87d0e;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.6; }
+  .proyectospage__wrapper-paragraph {
     color: #000000;
     text-decoration: none;
     font-family: "Poppins";
@@ -8546,25 +8587,6 @@ footer {
   background-color: #fdf6ee;
   padding: 70px 20px; }
 
-.proyectospage {
-  background-color: #fdf6ee;
-  padding: 90px 20px; }
-  .proyectospage__wrapper-title {
-    color: #e87d0e;
-    font-style: normal;
-    font-size: 2.5rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    line-height: 1.6; }
-  .proyectospage__wrapper-paragraph {
-    color: #000000;
-    text-decoration: none;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px; }
-
 .contactopage {
   background-color: #fdf6ee;
   padding: 90px 20px; }
@@ -8601,18 +8623,3 @@ footer {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px; }
-
-@media (min-width: 992px) {
-  .main__principal {
-    height: 100vh; }
-  .nosotros {
-    padding: 70px 100px; }
-  .servicios {
-    padding: 70px 100px; }
-  footer img {
-    width: 20%;
-    margin-bottom: 20px; }
-  .proyectospage {
-    padding: 90px; }
-  .contactopage {
-    padding: 30px; } }
