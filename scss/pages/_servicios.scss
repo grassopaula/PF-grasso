@@ -1,0 +1,38 @@
+
+  .serviciospage {
+    padding: 90px 20px;
+    &__wrapper {
+      &-title {
+        color: #e87d0e;
+        font-style: normal;
+        font-size: 2.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1.6;
+      }
+      &-subtitle {
+        color: #af3190;
+        font-style: normal;
+        font-size: 1.8rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1.6;
+        padding-top: 20px;
+      }
+      &-paragraph {
+        color: #000000;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  
+  .serviciosdetalle {
+    background-color: #fdf6ee;
+    padding: 70px 20px;
+  }
+  

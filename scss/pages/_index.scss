@@ -1,0 +1,182 @@
+
+.navbar__background {
+    background-color: #af3190;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .main__principal {
+    padding: 70px 20px;
+    &__wrapper {
+      &-title {
+        color: #af3190;
+        font-style: normal;
+        font-size: 2.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1.6;
+      }
+      &-paragraph {
+        color: #000000;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  
+  .nosotros {
+    background-color: #fdf6ee;
+    padding: 70px 20px;
+    &__wrapper {
+      &-title {
+        color: #e87d0e;
+        font-style: normal;
+        font-size: 2.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1.6;
+      }
+      &-paragraph {
+        color: #000000;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  
+  .servicios {
+    padding: 70px 20px;
+    &__wrapper {
+      &-title {
+        color: #e87d0e;
+        font-style: normal;
+        font-size: 2.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1.6;
+      }
+      &-subtitle {
+        color: #af3190;
+        font-style: normal;
+        font-size: 1.8rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1.6;
+        padding-top: 20px;
+      }
+      &-paragraph {
+        color: #000000;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  
+  .proyectos {
+    background-color: #fdf6ee;
+    padding: 30px 20px;
+    &__wrapper {
+      &-title {
+        color: #e87d0e;
+        font-style: normal;
+        font-size: 2.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1.6;
+      }
+      &-paragraph {
+        color: #000000;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  
+  .proyectos__wrapper .contacto {
+    padding: 30px 20px;
+  }
+  
+  .contacto__wrapper {
+    &-title {
+      color: #e87d0e;
+      font-style: normal;
+      font-size: 2.5rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      line-height: 1;
+    }
+    &-paragraph {
+      color: #000000;
+      text-decoration: none;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  
+  footer {
+    padding: 50px;
+    background-color: #e87d0e;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    img {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  }
+  
+ 
+  
+  @media (min-width: 992px) {
+    .main__principal {
+      height: 100vh;
+    }
+  
+    .nosotros {
+      padding: 70px 100px;
+    }
+  
+    .servicios {
+      padding: 70px 100px;
+    }
+  
+    footer img {
+      width: 20%;
+      margin-bottom: 20px;
+    }
+  
+    .proyectospage {
+      padding: 90px;
+    }
+  
+    .contactopage {
+      padding: 30px;
+    }
+  }
+  

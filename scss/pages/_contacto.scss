@@ -1,0 +1,48 @@
+
+  .contactopage {
+    background-color: #fdf6ee;
+    padding: 90px 20px;
+    &__wrapper {
+      &-title {
+        color: #e87d0e;
+        font-style: normal;
+        font-size: 2.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1;
+      }
+      &-paragraph {
+        color: #000000;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  
+  .formulario {
+    padding: 30px 20px;
+    &__wrapper {
+      &-title {
+        color: #e87d0e;
+        font-style: normal;
+        font-size: 2.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 1.6;
+      }
+      &-paragraph {
+        color: #000000;
+        text-decoration: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  
